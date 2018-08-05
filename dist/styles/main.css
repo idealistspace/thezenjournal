@@ -5,11 +5,9 @@
 }
 
 #home {
-  /* background: #f4f5f6; */
-  background: #010101;
+  background: #f4f5f6;
   position: relative;
   text-align: center;
-  color: white;
 }
 
 .email-form {
@@ -25,20 +23,19 @@
 }
 
 #ph-email {
-  /* border: 1px solid #d1d1d1; */
-  border: 1px solid #292929;
+  border: 1px solid #d1d1d1;
   box-sizing: border-box;
   color: #000000;
 }
 
 .button.button-outline {
-  color: white;
+  color: black;
 }
 
 .button,
 input[type="submit"].button-outline {
-  border: 0.1rem solid #888;
-  color: white;
+  border: 0.1rem solid black;
+  color: black;
 }
 
 #ph-subscribe-button {
