@@ -1,20 +1,47 @@
 .container {
-	max-width: 80.0rem;
-	padding-bottom: 7.5rem;
-	padding-top: 7.5rem;
+  max-width: 80rem;
+  padding-bottom: 7.5rem;
+  padding-top: 7.5rem;
 }
 
 #home {
-	background: #f4f5f6;
-	height: 100vh;
-	position: relative;
-	max-height: 100vh;
-	min-width: 100vw;
+  /* background: #f4f5f6; */
+  background: #010101;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-.thumbnail {
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	transform: translate(-50%, -50%);
+.email-form {
+  width: 32rem;
+  margin: 3rem auto;
+}
+
+#ph-email-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+}
+
+#ph-email {
+  /* border: 1px solid #d1d1d1; */
+  border: 1px solid #292929;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+.button.button-outline {
+  color: white;
+}
+
+.button,
+input[type="submit"].button-outline {
+  border: 0.1rem solid #888;
+  color: white;
+}
+
+#ph-subscribe-button {
+  margin-left: 10px;
+  width: 14rem;
 }
