@@ -11,7 +11,8 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player("player", {
     height: "630",
     width: "291",
-    videoId: "ZjpbeIYexFU"
+    videoId: "ZjpbeIYexFU",
+    playerVars: { rel: 0 }
   });
 }
 
