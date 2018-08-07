@@ -29,14 +29,15 @@
 
   <main class="wrapper">
 
-    <header class="header" id="home">
+    <header class="header -center" id="home">
       <section class="container">
-        <div>
-          <img width='200' height='200' src="images/icon-transparent.png" alt="ZenJournal | The world's fastest stress-free journal.">
+        <div class="video-thumbnail" title="Click to play App Preview">
+          <a href="#" data-micromodal-trigger="app-preview" title="Click to view App Preview">
+            <img class="arrow-right" width='200' height='200' src="images/icon-transparent.png" alt="ZenJournal | The world's fastest stress-free journal.">
+          </a>
         </div>
         <h1 class="title">ZenJournal</h1>
         <p>Stress-free Journaling Redefined</p>
-
         <a class="button button-outline" href="https://play.google.com/store/apps/details?id=com.idealistspace.castle" title="Play Store">Play Store</a>
         <a class="button button-outline" href="https://itunes.apple.com/us/app/zenjournal/id1399816360?ls=1&mt=8" title="Play Store"> App Store</a>
 
@@ -52,13 +53,12 @@
       </section>
     </header>
 
-
     <!-- <section class="container" id="contributing">
       <h5 class="title">Want to learn more?</h5>
 
     </section> -->
 
-    <footer class="footer">
+    <footer class="footer -center">
       <section class="container">
         <p>Made with ♥ by
           <a target="_blank" href="https://twitter.com/randomor" title="CJ Patoilo">randomor</a>.
@@ -67,8 +67,17 @@
 
   </main>
 
-  <script src="scripts/main.js"></script>
+  <div class="modal micromodal-slide" id="app-preview" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div class="modal__container" role="dialog" aria-modal="true" aria-label="App Preview Video">
+        <div id="player"></div>
+      </div>
+    </div>
+  </div>
 
+
+  <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
 
 <!-- Google Tag Manager (noscript) -->
