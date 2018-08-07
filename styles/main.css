@@ -9,6 +9,11 @@
   position: relative;
 }
 
+.title {
+  font-weight: 600;
+  color: #090909;
+}
+
 .-center {
   text-align: center;
 }
